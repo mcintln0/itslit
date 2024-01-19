@@ -1,0 +1,12 @@
+//Johnson
+
+//1
+
+{'Name' : 'Johnson', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' :{ 'Latitude':' 35.206370 ' , 'Longitude' : ' -85.920682'}, 'Exists': 'Yes'},
+
+
+//2
+
+{'Name' : 'Johnson', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' :{ 'Latitude':' 35.206464 ' , 'Longitude' : ' -85.920966'}, 'Exists': 'Yes'},

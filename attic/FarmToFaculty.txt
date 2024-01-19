@@ -1,0 +1,115 @@
+// Farm to  Faculty
+
+//1.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Street Light', 'Working' : 'Yes', 
+'Location': { 'Latitude':'35.211216' ,  'Longitude' : '-85.926292'}, 'Exists':'No'},
+
+//2.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Street Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212498 ' ,  'Longitude' : '85.928925'}, 'Exists': 'No'},
+
+//3.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Street Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.213272' ,  'Longitude' : '-85.930786'}, 'Exists': 'No'},
+
+//4.
+{'Name' : ‘FarmToFaculty’, 'Type': 'House Light’, 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212612' ,  'Longitude' : '-85.932999'}, 'Exists':'Yes'},
+
+//5.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘House Light', 'Working' : 'Yes', 
+'Location':{'35.212540’ ,  ‘Longitude’ : ‘-85.933182'}, 'Exists':'Yes'},
+
+//6.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘House Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212383’ ,  ‘Longitude’ : ‘-85.933495'}, 'Exists':'Yes'},
+
+//7.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘House Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212406’ ,  ‘Longitude’ : ‘-85.933624'}, 'Exists':'Yes'},
+
+//8.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘House Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212406’ ,  ‘Longitude’ : ‘-85.933693'}, 'Exists':'Yes'},
+
+//9.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp’, 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212307’ ,  ‘Longitude’ : ‘-85.934669'}, 'Exists':'Yes'},
+
+//10.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Black Lamp’, 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210907’ ,  ‘Longitude’ : ‘-85.935181'}, 'Exists':'Yes'},
+
+
+//11.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210213’ ,  ‘Longitude’ : ‘-85.935616'}, 'Exists': 'No'},
+
+//12.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210213’ ,  ‘Longitude’ : ‘-85.936508'}, 'Exists': 'No'},
+
+//13.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Driveway Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210144’ ,  ‘Longitude’ : ‘-85.935326'}, 'Exists':'Yes'},
+
+//14.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Driveway Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210136’ ,  ‘Longitude’ : ‘-85.935303'}, 'Exists':'Yes'},
+
+//15.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Black Lamp’, 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210148’ ,  ‘Longitude’ : ‘-85.935112'}, 'Exists':'Yes'},
+
+//16
+{'Name' : ‘FarmToFaculty’, 'Type': 'Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.209141’ ,  ‘Longitude’ : ‘-85.934158'}, 'Exists': 'No'},
+
+//17
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.208271’ ,  ‘Longitude’ : ‘-85.933868'}, 'Exists': 'No'},
+
+//18
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.207436’ ,  ‘Longitude’ : ‘-85.934433'}, 'Exists':'Yes'},
+
+//19
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.206875’ ,  ‘Longitude’ : ‘-85.935104'}, 'Exists': 'No'},
+
+//20.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212357’ ,  ‘Longitude’ : ‘-85.936607'}, 'Exists': 'No'},
+
+//21.
+{'Name' : ‘FarmToFaculty’, 'Type': ‘Black Lamp’, 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.211609' ,  'Longitude' : '-85.937263'}, 'Exists':'Yes'},
+
+//22.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210609’ ,  ‘Longitude’ : ‘-85.938789'}, 'Exists':'Yes'},
+
+//23.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.210133’ ,  ‘Longitude’ : ‘-85.939507'}, 'Exists': 'No'},
+
+//24.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.211506’ ,  ‘Longitude’ : ‘-85.940514'}, 'Exists':'Yes'},
+
+//25.
+{'Name' : ‘FarmToFaculty’, 'Type': 'House Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.211716’ ,  ‘Longitude’ : ‘-85.940437'}, 'Exists':'Yes'},
+
+//26.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212490’ ,  ‘Longitude’ : ‘-85.937111'}, 'Exists': 'No'},
+
+//27.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212502’ ,  ‘Longitude’ : ‘-85.935089'}, 'Exists': 'No'},
+
+//28.
+{'Name' : ‘FarmToFaculty’, 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':'35.212570’ ,  ‘Longitude’ : ‘-85.933441'}, 'Exists': 'No'},
+

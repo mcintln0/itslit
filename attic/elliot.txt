@@ -1,0 +1,24 @@
+{'Name' : 'THC', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.199917' , 'Longitude' : '-85.922356, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.200165' , 'Longitude' : '-85.922073, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.200542' , 'Longitude' : '-85.921852, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.200825' , 'Longitude' : '-85.921776, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.200474' , 'Longitude' : '-85.921242, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Double Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.201210' , 'Longitude' : '-85.921532, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Double Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.200981' , 'Longitude' : '-85.921043, 'Exists': 'Yes'},
+
+{'Name' : 'THC', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.200661' , 'Longitude' : '-85.920708, 'Exists': 'Yes'},
+

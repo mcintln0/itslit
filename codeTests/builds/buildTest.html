@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <script src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry,visualization"
+    ></script>
+</head>
+<script src = "d.js"></script>
+<!--
+<script src = "builder.js"></script>
+-->
+
+<body onload="init();">
+
+<p id="yep"> Dorm Info </p>
+
+<script>
+
+var map;
+var dorms = [];
+/*
+function Building(name, build, point, type, dsc){
+    this.name      = name;
+    this.building  = build;
+    this.point = point;
+    this.type      = type;
+    this.description = dsc;
+    this.toString  = function(){
+                  return "<p>Name : " + this.name
+                        +"<br>Type : " + this.type
+                        +"<br>Description : " + this.description
+                        ;
+                }
+  }
+*/
+
+//To test if the arrays are accessible
+function init(){
+
+  for(var i =0; i < dorm.length; i++)
+    document.getElementById('yep').innerHTML += dorm[i].toString() +'<br>' + dorm[i].point ;
+map = new google.maps.Map(document.getElementById("map_canvas"),{
+        center: {lat: 35.205154, lng: -85.917483 },
+        zoom:18
+      });
+addDorms();
+}
+
+var currentW;
+function showInfoWin(a,d) {
+  google.maps.event.addListener(d,'click', function(){
+  var info = new google.maps.InfoWindow({
+    content: dorm[a].toString(),
+    position: dorm[a].point});
+
+  if (currentW != null) {currentW.close();}
+   info.open(map);
+   currentW=info;
+  });
+ }
+
+//Res Life
+function addDorms(){
+
+  for(var i =0; i < dorm.length; i++){
+   var dor = new google.maps.Polygon({
+      map: map,
+      strokeWeight: 2,
+      strokeOpacity: 0.8,
+      strokeColor: 'black',
+      fillColor: 'red',
+      path: dorm[i].building
+      });
+
+    dorms.push(dor);
+    showInfoWin(i,dor);
+ }
+
+}
+
+
+</script>
+<div style='height:90%;width:90%'  id="map_canvas"></div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!-- File for Generating the paths through google -->
+
+<html>
+<head>
+    <script src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry&visualization"
+    ></script>
+</head>
+
+<body onload="init();">
+<script>
+var map;
+
+function init(){
+    map = new google.maps.Map(document.getElementById("map_canvas"),{
+        center: {lat: 35.205154, lng: -85.917483 },
+        zoom:16}
+     );
+
+        directionsDisplay = new google.maps.DirectionsRenderer;
+        directionsService = new google.maps.DirectionsService;
+        directionsDisplay.setMap(map);
+
+
+//Delt to Equestrian
+  var request = {
+    origin:new google.maps.LatLng(35.20385,-85.91383),
+    destination:new google.maps.LatLng(35.212991, -85.926138),
+    travelMode: google.maps.TravelMode.WALKING
+  };
+
+  directionsService.route(request, function(result, status) {
+    if (status == google.maps.DirectionsStatus.OK) {
+      directionsDisplay.setDirections(result);
+    }
+  });
+
+/*
+//Phillips to Nabit
+  var request = {
+    origin:new google.maps.LatLng(35.210501, -85.923384),
+    destination:new google.maps.LatLng(35.203750, -85.914345),
+    travelMode: google.maps.TravelMode.WALKING
+  };
+
+  directionsService.route(request, function(result, status) {
+    if (status == google.maps.DirectionsStatus.OK) {
+      directionsDisplay.setDirections(result);
+    }
+  });
+
+//Phillips to Dupont
+  var request = {
+    origin: new google.maps.LatLng(35.205716, -85.928844),
+    destination:new google.maps.LatLng(35.204479, -85.917758),
+    travelMode: google.maps.TravelMode.WALKING
+  };
+
+  directionsService.route(request, function(result, status) {
+    if (status == google.maps.DirectionsStatus.OK) {
+      directionsDisplay.setDirections(result);
+    }
+  });
+
+*/
+
+}
+
+</script>
+    <div style='height:90%;width:90%'  id="map_canvas"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Unknown LIghts
+
+//IDK
+
+{'Name': 'UNKNOWN', 'Type': 'Street Light','Working' : 'Yes', 'Location':{'Latitude':'35.201290','Longitude':'-85.917252'}, 'Exists': 'Yes'},
+
+{'Name': 'UNKNOWN', 'Type': 'Street Light','Working' : 'Yes', 'Location':{'Latitude':'35.201046','Longitude':'-85.917236'}, 'Exists': 'Yes'},
+
+{'Name': 'UNKNOWN', 'Type': 'Street Light','Working' : 'Yes', 'Location':{'Latitude':'35.200794','Longitude':'-85.917038'}, 'Exists': 'Yes'},
+
+{'Name': 'UNKNOWN', 'Type': 'Street Light','Working' : 'No', 'Location':{'Latitude':'35.200569','Longitude':'-85.916977'}, 'Exists': 'Yes'},
+
+{'Name': 'UNKNOWN', 'Type': 'Street Light','Working' : 'No', 'Location':{'Latitude':'35.201824','Longitude':'-85.917244'}, 'Exists': 'Yes'},
+
+{'Name': 'UNKNOWN', 'Type': 'Street Light','Working' : 'No', 'Location':{'Latitude':'35.201900','Longitude':'-85.917564'}, 'Exists': 'Yes'}
+

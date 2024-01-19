@@ -1,0 +1,124 @@
+
+1
+{'Name' : 'French House to Fowler', 'Type': ' Tree Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.210205' ,  'Longitude' : ' -85.920480'}, 'Exists': 'No'},
+
+
+2
+
+{'Name' : 'French House to Fowler', 'Type': ' Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.210025' ,  'Longitude' : ' -85.920544'}, 'Exists': 'No'},
+
+
+
+3
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.209994' ,  'Longitude' : ' -85.921193'}, 'Exists': 'Yes'},
+
+
+4
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.210240' ,  'Longitude' : ' -85.922139'}, 'Exists': 'Yes'},
+
+
+5
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.210238' ,  'Longitude' : ' -85.922932'}, 'Exists': 'Yes'},
+
+6
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.210057' ,  'Longitude' : ' -85.923562'}, 'Exists': 'Yes'},
+
+
+7
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.210176' ,  'Longitude' : ' -85.924146'}, 'Exists': 'Yes'},
+
+8
+
+{'Name' : 'French House to Fowler', 'Type': 'Black Lamp', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.210138' ,  'Longitude' : ' -85.922561'}, 'Exists': 'No'},
+
+
+9
+
+{'Name' : 'French House to Fowler', 'Type': ' Black Lamp', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.210101' ,  'Longitude' : ' -85.921853'}, 'Exists': 'No'},
+
+10
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.209688' ,  'Longitude' : ' -85.920239'}, 'Exists': 'Yes'},
+
+11
+
+{'Name' : 'French House to Fowler', 'Type': ' Two Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.209263' ,  'Longitude' : ' -85.919579'}, 'Exists': 'Yes'},
+
+
+
+12
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'No', 
+'Location':{ 'Latitude':': 35.208726' ,  'Longitude' : ' -85.919156'}, 'Exists': 'Yes'},
+
+
+13
+
+{'Name' : 'French House to Fowler', 'Type': ' Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.208650' ,  'Longitude' : ' -85.919081'}, 'Exists': 'Yes'},
+
+
+14
+
+{'Name' : 'French House to Fowler', 'Type': '  Black Lamp', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':': 35.208389' ,  'Longitude' : ' -85.919019'}, 'Exists': 'Yes'},
+
+
+15
+
+{'Name' : 'French House to Fowler', 'Type': '  Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.208254' ,  'Longitude' : ' -85.919321'}, 'Exists': 'Yes'},
+
+
+16
+
+{'Name' : 'French House to Fowler', 'Type': '  Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.208553' ,  'Longitude' : ' -85.919374'}, 'Exists': 'Yes'},
+
+
+17
+
+{'Name' : 'French House to Fowler', 'Type': '  Black Lamp', 'Working' : 'Yes',
+'Location':{ 'Latitude':': 35.208028' ,  'Longitude' : ' -85.919478'}, 'Exists': 'Yes'},
+
+
+
+18
+{'Name' : 'French House to Fowler', 'Type': '  Black Lamp', 'Working' : 'Yes',
+'Location':{ 'Latitude':': 35.207797' ,  'Longitude' : ' -85.919445'}, 'Exists': 'Yes'},
+
+
+19
+
+{'Name' : 'French House to Fowler', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':': 35.207848' ,  'Longitude' : ' -85.919370'}, 'Exists': 'Yes'},
+
+
+20
+
+{'Name' : 'French House to Fowler', 'Type': ' Street Light', 'Working' : 'Yes',
+'Location':{ 'Latitude':': 35.207719' ,  'Longitude' : ' -85.919101'}, 'Exists': 'No'},
+
+
+21
+
+{'Name' : 'French House to Fowler', 'Type': ' Black Lamp', 'Working' : 'Yes',
+'Location':{ 'Latitude':': 35.210359' ,  'Longitude' : ' -85.920964'}, 'Exists': 'No'},
+
+

@@ -1,0 +1,423 @@
+// Half of The Rest
+
+//1.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.201998 ' ,  'Longitude' : ' -85.919760'}, 'Exists': 'Yes'},
+
+
+//2.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202351 ' ,  'Longitude' : ' -85.920113'}, 'Exists': 'Yes'},
+
+
+//3.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202614 ' ,  'Longitude' : ' -85.919968'}, 'Exists': 'Yes'},
+
+//4.
+
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202766 ' ,  'Longitude' : ' -85.919777'}, 'Exists': 'Yes'},
+
+//5.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202686' ,  'Longitude' : ' -85.919388'}, 'Exists': 'Yes'},
+
+//6.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202820' ,  'Longitude' : ' -85.919144'}, 'Exists': 'Yes'},
+
+//7.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202577' ,  'Longitude' : ' -85.919015'}, 'Exists': 'Yes'},
+
+
+//8.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202186 ' ,  'Longitude' : ' -85.919241'}, 'Exists': 'Yes'},
+
+
+//9.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202618 ' ,  'Longitude' : ' -85.918843'}, 'Exists': 'Yes'},
+
+
+//10.
+
+//suggest
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202602,' ,  'Longitude' : ' -85.918694'}, 'Exists': 'No'},
+
+//11.
+//suggest
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202461 ' ,  'Longitude' : ' -85.918465'}, 'Exists': 'No'},
+
+
+
+//12.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202991' ,  'Longitude' : ' -85.918556'}, 'Exists': 'Yes'},
+
+//13.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203007' ,  'Longitude' : ' -85.918320'}, 'Exists': 'Yes'},
+
+//14.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202984' ,  'Longitude' : ' -85.917931'}, 'Exists': 'Yes'},
+
+//15.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203144' ,  'Longitude' : ' -85.917892'}, 'Exists': 'Yes'},
+
+//16.
+
+//suggest building light
+
+{'Name' : 'The Rest', 'Type': 'Building Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202866' ,  'Longitude' : ' -85.918007'}, 'Exists': 'No'},
+
+//17.
+
+//suggest building light
+
+{'Name' : 'The Rest', 'Type': 'Building Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202785' ,  'Longitude' : ' -85.918091'}, 'Exists': 'No'},
+
+//18.
+
+//suggest Build l
+
+{'Name' : 'The Rest', 'Type': 'Building Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202599' ,  'Longitude' : ' -85.918144'}, 'Exists': 'No'},
+
+//19.
+
+//suggest build l
+{'Name' : 'The Rest', 'Type': 'Building Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202568' ,  'Longitude' : ' -85.918007'}, 'Exists': 'No'},
+
+//20.
+
+//BL finnicky
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202015' ,  'Longitude' : ' -85.917603'}, 'Exists': 'Yes'},
+
+//21.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202332' ,  'Longitude' : ' -85.917664'}, 'Exists': 'Yes'},
+
+//22.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202785' ,  'Longitude' : ' -85.917686'}, 'Exists': 'Yes'},
+
+//23.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202396' ,  'Longitude' : ' -85.917572'}, 'Exists': 'Yes'},
+
+//24.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202698' ,  'Longitude' : ' -85.917755'}, 'Exists': 'Yes'},
+
+//25.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202942' ,  'Longitude' : ' -85.917824'}, 'Exists': 'Yes'},
+
+//26.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203056' ,  'Longitude' : ' -85.917870'}, 'Exists': 'Yes'},
+
+//27.
+
+//suggest
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203362' ,  'Longitude' : ' -85.917740'}, 'Exists': 'No'},
+
+//28.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203403' ,  'Longitude' : ' -85.917549'}, 'Exists': 'Yes'},
+
+//29.
+
+//suggest
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203369' ,  'Longitude' : ' -85.917892'}, 'Exists': 'No'},
+
+//30.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203499' ,  'Longitude' : ' -85.918060'}, 'Exists': 'Yes'},
+
+//31.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203743' ,  'Longitude' : ' -85.918289'}, 'Exists': 'Yes'},
+
+//32.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203789' ,  'Longitude' : ' -85.918953'}, 'Exists': 'Yes'},
+
+//33.
+
+//suggest
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203575' ,  'Longitude' : ' -85.919037'}, 'Exists': 'No'},
+
+//34.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203545' ,  'Longitude' : ' -85.919060'}, 'Exists': 'Yes'},
+
+//35.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203106' ,  'Longitude' : ' -85.919228'}, 'Exists': 'Yes'},
+
+//36.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203066 ' ,  'Longitude' : ' -85.919033'}, 'Exists': 'Yes'},
+
+
+//37.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202885' ,  'Longitude' : ' -85.919647'}, 'Exists': 'Yes'},
+
+//38.
+
+//suggest build l
+
+{'Name' : 'The Rest', 'Type': 'Building Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.202965' ,  'Longitude' : ' -85.919823'}, 'Exists': 'No'},
+
+//39.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203331' ,  'Longitude' : ' -85.919617'}, 'Exists': 'Yes'},
+
+//40.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203518' ,  'Longitude' : ' -85.919579'}, 'Exists': 'Yes'},
+
+//41.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203579' ,  'Longitude' : ' -85.919914'}, 'Exists': 'Yes'},
+
+//42.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': '//BLack Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203423' ,  'Longitude' : ' -85.920349'}, 'Exists': 'Yes'},
+
+//43.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203423' ,  'Longitude' : ' -85.920540'}, 'Exists': 'Yes'},
+
+//44.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203117' ,  'Longitude' : ' -85.921051'}, 'Exists': 'Yes'},
+
+//45.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': '//BLack Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203587' ,  'Longitude' : ' -85.920944'}, 'Exists': 'Yes'},
+
+//46.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203796' ,  'Longitude' : ' -85.920540'}, 'Exists': 'Yes'},
+
+//47.
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203598' ,  'Longitude' : ' -85.920341'}, 'Exists': 'Yes'},
+
+//48.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': '//BLack Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203701' ,  'Longitude' : ' -85.920128'}, 'Exists': 'Yes'},
+
+//49.
+
+//BL
+
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203743' ,  'Longitude' : ' -85.919884'}, 'Exists': 'Yes'},
+
+//50.
+
+//BL
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203770' ,  'Longitude' : ' -85.919441'}, 'Exists': 'Yes'},
+
+//51.
+//BL
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203934' ,  'Longitude' : ' -85.919495'}, 'Exists': 'Yes'},
+
+//52.
+//suggest
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.203899' ,  'Longitude' : ' -85.919373'}, 'Exists': 'No'},
+
+//53.
+//suggest
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204380' ,  'Longitude' : ' -85.920456'}, 'Exists': 'No'},
+
+//54.
+
+//BL
+{'Name' : 'The Rest', 'Type': 'Black Lamp' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204395' ,  'Longitude' : ' -85.919403'}, 'Exists': 'Yes'},
+
+//55.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204075 ' ,  'Longitude' : ' -85.918146'}, 'Exists': 'Yes'},
+
+
+//56.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204253 ' ,  'Longitude' : ' -85.918302'}, 'Exists': 'Yes'},
+
+
+//57.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204512' ,  'Longitude' : ' -85.918288'}, 'Exists': 'Yes'},
+
+
+//58.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204537 ' ,  'Longitude' : ' -85.918565'}, 'Exists': 'Yes'},
+
+//59.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204285' ,  'Longitude' : ' -85.918545'}, 'Exists': 'Yes'},
+
+
+//60.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204777 ' ,  'Longitude' : ' -85.918194'}, 'Exists': 'Yes'},
+
+
+//61.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204861 ' ,  'Longitude' : ' -85.918182'}, 'Exists': 'Yes'},
+
+
+//62.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204961 ' ,  'Longitude' : ' -85.918454'}, 'Exists': 'Yes'},
+
+
+//63.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204855 ' ,  'Longitude' : ' -85.919172'}, 'Exists': 'Yes'},
+
+
+//64.
+
+{'Name' : 'The Rest', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205214 ' ,  'Longitude' : ' -85.919308'}, 'Exists': 'Yes'},

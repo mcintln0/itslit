@@ -1,0 +1,102 @@
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196690','Longitude'  :  '-85.927765' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197376','Longitude'  :  '-85.927208' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197559','Longitude'  :  '-85.926826' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197948','Longitude'  :  '-85.926193' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.198082','Longitude'  :  '-85.925858' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197826','Longitude'  :  '-85.925789' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197559','Longitude'  :  '-85.925896' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197140','Longitude'  :  '-85.926399' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196697','Longitude'  :  '-85.926048' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196167','Longitude'  :  '-85.925674' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Double Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.195850','Longitude'  :  '-85.925545' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Parking Lot', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.195625','Longitude'  :  '-85.924995' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Parking Lot', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.195904','Longitude'  :  '-85.924530' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Parking Lot', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196186','Longitude'  :  '-85.924606' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Parking Lot', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196049','Longitude'  :  '-85.925133' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196239','Longitude'  :  '-85.925377' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Building Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196468','Longitude'  :  '-85.925568' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196720','Longitude'  :  '-85.925659' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197018','Longitude'  :  '-85.925728' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Building Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.196861','Longitude'  :  '-85.925949' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197296','Longitude'  :  '-85.925507' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197487','Longitude'  :  '-85.925087' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197590','Longitude'  :  '-85.924721' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.198025','Longitude'  :  '-85.924820' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197853','Longitude'  :  '-85.925247' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.197605','Longitude'  :  '-85.925507' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.198376','Longitude'  :  '-85.925468' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.198483','Longitude'  :  '-85.925026' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Light Post', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.198223','Longitude'  :  '-85.924797' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'No', 'Location':{
+'Latitude' : '35.198807','Longitude'  :  '-85.924583' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.199081','Longitude'  :  '-85.923981' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.199295','Longitude'  :  '-85.923553' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.199562','Longitude'  :  '-85.923073' }, 'Exists': 'Yes'},
+
+{'Name' : 'gsq', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{
+'Latitude' : '35.199696','Longitude'  :  '-85.922691 ' }, 'Exists': 'Yes'},
+

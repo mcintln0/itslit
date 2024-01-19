@@ -1,0 +1,67 @@
+<html>
+<head>    
+
+    <script 
+src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry&libraries=visualization"
+>
+    </script>
+</head>
+
+<body onload="initMap();">
+<h2> Path Finder </h2>
+<div id= "map_canvas" style="height:100%; width:100%" ></div>
+   <script src= "campusmapcoords.js"></script> 
+
+<script >
+var map;
+var rote;
+var directionsDisplay;
+var directionsService; 
+
+
+function initMap() {
+   map = new google.maps.Map(document.getElementById("map_canvas"),{
+        center: {lat: 35.205154, lng: -85.917483 },
+        zoom:18
+  });
+
+
+        directionsDisplay = new google.maps.DirectionsRenderer;
+       directionsService = new google.maps.DirectionsService;
+        directionsDisplay.setMap(map);
+
+ createPats();
+}
+
+
+   function createPats() {
+  for(var i =0; i< dormMarkerArray.length; i++){
+     console.log("---" + i + "---");
+
+//	for(var j=0; j< academicArray.length;j++){
+ //    console.log("---" + i + "---" + j + " ---" );
+    var request = {
+      origin: dormMarkerArray[i],
+      destination: academicArray[0],
+      travelMode: google.maps.TravelMode.WALKING
+    };
+    directionsService.route(request, function(result, status) {
+      if (status == google.maps.DirectionsStatus.OK ) {
+    var line = new google.maps.Polyline({
+        path: result.routes[0].overview_path,
+        strokeColor: "FF0000",
+        strokeOpacity: 0.5,
+        strokeWeight: 4,
+        map: map
+    });
+ //   rote.push(line);
+      }
+    });
+  }   
+//  }
+} 
+
+</script>
+</body >
+</html>

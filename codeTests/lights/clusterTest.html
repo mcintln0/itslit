@@ -1,0 +1,92 @@
+<!--LaToya McIntyre -->
+<!--CS 286 Google Maps -->
+<!--Spring 2019 -->
+
+<html>
+<head>
+    <meta http-equiv="content-type=" content="text/html; charset=UTF-8" />
+    <title>Cluster Tester: Test Successful </title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Lobster" rel="stylesheet">
+    <script src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry&libraries=visualization"
+    ></script>
+
+    <script src= "lights.js"></script>
+    <script src= "mapFile.js"></script>
+    <script src= "campusmapcoords.js"></script>
+    <script src= "paths.js"></script>
+    <script src="markerclusterer.js"></script>
+
+</head>
+
+<body onload="init();">
+    <h2 id="title">CLuster Test </h2>
+
+
+<!---------------------------- Visual Controls ------------------------------------->
+    <button class = "mapControl" id = "df" onclick="defaultMap()"> Default </button>
+    <button class = "mapControl" id = "sL" onclick="showLights()">Lights</button>
+    <button class = "mapControl" id = "lC" onclick="showLC()"> Night Lights</button>
+    <button class = "mapControl" id = "lM" onclick="showLMap()"> Night Time</button>
+ 
+
+    <button class = "positionControl" id = "center" onclick="center()"> Central Campus </button>
+    <button class = "positionControl" id = "cross" onclick="cross()"> Cross </button>
+    <button class = "positionControl" id = "thc" onclick="thc()"> Tuckaway </button>
+    <button class = "positionControl" id = "gst" onclick="gst()"> Gorgas </button>
+    <button class = "positionControl" id = "cot" onclick="cot()"> Trez </button>
+
+
+<script>
+var map;
+var markers = [];
+var data = [];
+var dat = [];
+var lightMap;
+var studentRoute = [];
+var specialRoute = [];
+var tourPaths = [];
+var specialPaths = [];
+
+
+function init(){
+    map = initMap();
+
+
+ //Light Controls
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('df'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('sL'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('lC'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('lM'));
+
+//All the base shapes on the map
+addDorms(); //Is missing Ayres, Barnswell Apartments, and Theme Houses. Add those next please.
+addAcademics();
+addFrats();
+addUniv();
+
+//Create the hideable components
+//createMarkers();
+localOnly();
+
+createLC();
+createLMap();
+}
+
+
+function localOnly(){
+var markss = createMarkers();
+markerCluster = new MarkerClusterer(map, markss,
+ {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+                      });
+
+
+}
+
+
+</script>
+    <div id="map_canvas"></div>
+</body>
+</html>

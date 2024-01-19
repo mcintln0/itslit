@@ -1,0 +1,108 @@
+1
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.207362
+' ,  'Longitude' : ' -85.914528'}, 'Exists': 'Yes'},
+
+2
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.207004
+' ,  'Longitude' : ' -85.914315'}, 'Exists': 'Yes'},
+
+3
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'No', 'Location':{ 'Latitude':' 35.206612
+' ,  'Longitude' : ' -85.914145'}, 'Exists': 'Yes'},
+
+
+4
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206823
+' ,  'Longitude' : ' -85.913730'}, 'Exists': 'Yes'},
+
+5
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206506
+' ,  'Longitude' : ' -85.913439'}, 'Exists': 'Yes'},
+
+
+
+6
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206050
+' ,  'Longitude' : ' -85.913277'}, 'Exists': 'Yes'},
+
+7
+
+{'Name' : 'Trez', 'Type': 'Tree Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.205943
+' ,  'Longitude' : ' -85.912662'}, 'Exists': 'Yes'},
+
+
+8
+
+{'Name' : 'Trez', 'Type': 'Tree Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206256
+' ,  'Longitude' : ' -85.912635'}, 'Exists': 'Yes'},
+
+9
+
+{'Name' : 'Trez', 'Type': 'Small Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206164
+' ,  'Longitude' : ' -85.912577'}, 'Exists': 'No'},
+
+10
+
+{'Name' : 'Trez', 'Type': 'Small Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206148
+' ,  'Longitude' : ' -85.912472'}, 'Exists': 'No'},
+
+11
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206310
+' ,  'Longitude' : ' -85.912849'}, 'Exists': 'Yes'},
+
+12
+
+{'Name' : 'Trez', 'Type': 'Tree Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206503
+' ,  'Longitude' : ' -85.912931'}, 'Exists': 'Yes'},
+
+13
+
+{'Name' : 'Trez', 'Type': 'Tree Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.206755
+' ,  'Longitude' : ' -85.913125'}, 'Exists': 'Yes'},
+
+14
+
+{'Name' : 'Trez', 'Type': 'Tree Light', 'Working' : 'No', 'Location':{ 'Latitude':' 35.206949
+' ,  'Longitude' : ' -85.913034'}, 'Exists': 'Yes'},
+
+15
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.207204
+' ,  'Longitude' : ' -85.913446'}, 'Exists': 'Yes'},
+
+16
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.207316
+' ,  'Longitude' : ' -85.913830'}, 'Exists': 'Yes'},
+
+
+
+17
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.207357
+' ,  'Longitude' : ' -85.914161'}, 'Exists': 'Yes'},
+
+//18
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes',
+ 'Location' :{ 'Latitude':' 35.204932 ','Longitude' : ' -85.911730'}, 'Exists': 'Yes'},
+
+
+
+//19
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes',
+ 'Location' :{ 'Latitude':' 35.205272 ','Longitude' : ' -85.911948'}, 'Exists': 'Yes'},
+
+
+
+//20
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes',
+'Location' :{ 'Latitude':' 35.205008 ','Longitude' : ' -85.912021'}, 'Exists': 'Yes'},

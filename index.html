@@ -1,0 +1,173 @@
+<!--LaToya McIntyre -->
+<!--CS 286 Google Maps -->
+<!--Spring 2019 -->
+<!-- The campusmapcoords.js file and the paths.js file were downloaded from 
+     https://www.sewanee.edu/admission/visit/map/ 
+     it contains the polygons of the building shapes and some of the paths -->
+
+
+<html>
+<head>
+    <meta http-equiv="content-type=" content="text/html; charset=UTF-8" />
+    <title>It's Lit!</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Lobster" rel="stylesheet">
+    <script src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry,visualization"
+    ></script>
+    <script src= "lights.js"></script>
+    <script src= "mapFile.js"></script>
+    <script src= "lightFile.js"></script>
+    <script src= "positionFile.js"></script>
+    <script src= "pathFile.js"></script> 
+    <script src= "buildFile.js"></script>
+    <script src= "dorm.js"></script> 
+    <script src= "frats.js"></script>
+    <script src= "sors.js"></script>
+    <script src= "academic.js"></script>
+    <script src= "themeHouse.js"></script>
+<!--    <script src= "campusmapcoords.js"></script> -->
+    <script src= "partyPaths.js"></script>
+    <script src= "studentPaths.js"></script>
+    <script src="markerclusterer.js"></script>
+
+</head>
+
+<body onload="init();">
+    <h1 id="title">It's Lit: An Interactive Map of Sewanee's Lights</h1>
+    <button class="menu" onclick="window.location.href='scope.html';"> Information </button>
+    <button class="menu" onclick="window.location.href='philosophy.html';">Concerns</button>
+    <button class="menu" onclick="window.location.href='priority.html';"> Priorities </button>
+    <button class="menu" onclick="window.location.href='index.html';"> Home </button>
+
+<br><br><br>
+
+ <h2>This website is dedicated to bringing clarity to an abstract complaint, <i>i.e.</i> the lack of lights on campus. 
+  Although, campus seems to be well lit, the lights are inadequate; you see several lights but the lights do not go several feet (aka it's not lit). </h2>
+
+
+<!---------------------------- Visual Controls ------------------------------------->
+    <button class = "instructions"    id = "in" disabled > Feature Controls </button>
+    <button class = "mapControl"      id = "df" onclick="defaultMap(map)"> Reset </button>
+    <button class = "mapControl"      id = "sL" onclick="showLights(map)">Lights</button>
+    <button class = "mapControl"      id = "lM" onclick="showLMap(map)">Night Time</button>
+    <button class = "mapControl"      id = "iM" onclick="showIdeal(map)">Ideal</button>
+    <button class = "mapControl"      id = "ac" onclick="academicsOnly(map)"> Academic Buildings</button>
+    <button class = "mapControl"      id = "res" onclick="resOnly(map)"> Residential Buildings</button>
+    <button class = "instructions"    id = "ins" disabled > Path Controls </button>
+    <button class = "pathControl"     id = "sR" onclick="showStudent(map)">Show Student Routes</button>
+    <button class = "pathControl"     id = "pR" onclick="showParty(map)">Show Weekend Routes</button>
+
+<!---------------------------- Postion Controls --------------------------------->
+    <button class = "instructions"    id = "inst" disabled > Position Controls </button>
+    <button class = "positionControl" id = "all" onclick="al(map)"> Entire Campus</button>
+    <button class = "positionControl" id = "center" onclick="center(map)"> Central Campus </button>
+    <button class = "positionControl" id = "ash" onclick="ash(map)"> Humphreys</button>
+    <button class = "positionControl" id = "thc" onclick="thc(map)"> Tuckaway </button>
+    <button class = "positionControl" id = "gst" onclick="gst(map)"> Gorgas </button>
+    <button class = "positionControl" id = "phh" onclick="phh(map)"> Phillips </button>
+    <button class = "positionControl" id = "cot" onclick="cot(map)"> Trez</button>
+    <button class = "positionControl" id = "bdw" onclick="bdw(map)"> Wick </button>
+    <button class = "positionControl" id = "faf" onclick="faf(map)"> Faculty Living</button>
+    <button class = "positionControl" id = "gym" onclick="gym(map)"> Fowler </button>
+    <button class = "positionControl" id = "mab" onclick="mab(map)"> MCC </button>
+    <button class = "positionControl" id = "bc" onclick="bc(map)"> Bishop Commons</button>
+    <button class = "positionControl" id = "aca" onclick="aca(map)"> Academic Buildings</button>
+    <button class = "positionControl" id = "cross" onclick="cross(map)"> Cross </button>
+
+<script>
+var map;
+
+//Light Variables
+var data = [];
+var dataI = [];
+var markers = [];
+var lightMap;
+var idealMap;
+var markerCluster;
+
+//Bulding Variables
+var dorms = [];
+var frats = [];
+var soros= [];
+var academics = [];
+var themes= [];
+
+//Path Variables
+var studentRoute = [];
+var partyRoute = [];
+//var specialPaths = [];
+
+
+function init(){
+    map = initMap("map_canvas");
+
+ //Light Controls
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('in'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('df'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('sL'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('lM'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('iM'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('res'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('ac'));
+
+ //Path Controls
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('ins'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('sR'));
+ map.controls[google.maps.ControlPosition.LEFT_CENTER].push(document.getElementById('pR'));
+
+//Position Controls
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('inst'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('all'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('center'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('gst'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('phh'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('gym'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('thc'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('faf'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('mab'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('cot'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('bdw'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('ash'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('bc'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('aca'));
+ map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(document.getElementById('cross'));
+
+//All the base shapes on the map
+addDorms(map); //Is missing Ayres, Barnswell Apartments, and Theme Houses. Add those next please.
+addAcademics(map);
+addFrats(map);
+addTheme(map);
+addSoros(map);
+//addUniv();
+
+//Create the hideable components
+makeParty();
+makeStudent();
+createMarkers();
+createLMap();
+createIdeal();
+
+markerCluster = new MarkerClusterer(map, markers,
+ { minimumClusterSize:5,
+imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+  });
+ markerCluster.clearMarkers();
+
+
+}
+
+</script>
+    <div id="map_canvas"></div>
+</body>
+<footer>
+All light location information was gathered by hand, so there may be a degree of human error.
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Website designed and created by Computer Science Major LaToya McIntyre
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ University of the South, Class of 2020.
+</footer>
+</html>
+
+</html>

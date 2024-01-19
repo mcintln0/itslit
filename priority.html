@@ -1,0 +1,191 @@
+<!--LaToya McIntyre -->
+<!--CS 286 Google Maps -->
+<!--Spring 2019 -->
+
+<html>
+<head>
+    <meta http-equiv="content-type=" content="text/html; charset=UTF-8" />
+    <title>It's Lit!</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Lobster" rel="stylesheet">
+    <script src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry,visualization"
+    ></script>
+    <script src= "lights.js"></script>
+    <script src= "mapFile.js"></script>
+    <script src= "lightFile.js"></script>
+    <script src= "positionFile.js"></script>
+    <script src= "pathFile.js"></script> 
+    <script src= "buildFile.js"></script>
+    <script src= "dorm.js"></script> 
+    <script src= "frats.js"></script>
+    <script src= "academic.js"></script>
+    <script src= "partyPaths.js"></script>
+    <script src= "studentPaths.js"></script>
+    <script src="markerclusterer.js"></script>
+
+</head>
+
+<body onload="init();">
+    <h1 id="title">It's Lit: An Interactive Map of Sewanee's Lights</h1>
+    <button class="menu" onclick="window.location.href='scope.html';"> Information</button>
+    <button class="menu" onclick="window.location.href='philosophy.html';">Concerns</button>
+    <button class="menu" onclick="window.location.href='priority.html';"> Priorities </button>
+    <button class="menu" onclick="window.location.href='index.html';"> Home </button>
+
+
+<br><br><br>
+
+<h2> Priorities </h2>
+
+
+<script>
+var map;
+var map1;
+
+//Light Variables
+var data = [];
+var markers = [];
+var lightMap;
+var markerCluster;
+
+//Bulding Variables
+var dorms = [];
+var frats = [];
+var academics = [];
+
+//Path Variables
+//var studentRoute = [];
+var partyRoute = [];
+
+
+</script>
+
+<pre>
+<p style='padding: 10px'> 
+<b>What next? </b>
+	<u>First</u>: The university should execute a professional evalutaion of <b>all</b> of the lights on campus. With a focus on student and staff routes to their residential areas, fraternities, and academic areas.
+ 
+	<u>Secondly</u>: The university should form a committee dedicated to monitoring and making recommendations about the lights. The committee ideally would include:<ul>
+<li> Male and female students of differing races, majors, and housing locations</li>
+	*Note: Male and female is in reference to genderized dorms, not gender identity.
+
+<li> Maintenance staff and dining staff.</li>
+<li> Residential Life</li></ul>
+ As this will ensure that the campus is naturally evaluated at times of normal use.
+
+<b>Where should lights be prioritized? </b>
+	Below there is a map, indicating some areas of focus. Note, this data was collected over a span of three months and heavily relies upon recommendations and personal experience of members of the Sewanee community.
+</pre>
+<div style="width:100%; text-align: center;"> 
+<br>
+<!---------------------------- Postion Controls --------------------------------->
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "all"    onclick="al(map, 14); al(map1,14);"> Entire Campus</button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "center" onclick="center(map); center(map1);"> Central Campus </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "ash"    onclick="ash(map); ash(map1);"> Humphreys</button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "thc"    onclick="thc(map); thc(map1);"> Tuckaway </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "gst"    onclick="gst(map); gst(map1);"> Gorgas </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "phh"    onclick="phh(map); phh(map1);"> Phillips </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "cot"    onclick="cot(map); cot(map1);"> Trez</button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "bdw"    onclick="bdw(map); bdw(map1);"> Wick </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "faf"    onclick="faf(map); faf(map1);"> Faculty Living</button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "gym"    onclick="gym(map); gym(map1);"> Gym </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "mab"    onclick="mab(map); mab(map1);"> MCC </button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "bc"     onclick="bc(map);  bc(map1);"> Bishop Commons</button>
+    <button style="width:100px; height:50px; vertical-align: middle;" class = "positionControl" id = "aca"    onclick="aca(map); aca(map1);"> Academic Buildings</button>
+</div>
+
+<br>
+<script>
+function init(){
+    map = initMap("map_canvas0");
+    map1 = initMap("map_canvas1"); 
+
+/*---------Map Synch------------*/
+// Map Synchronizing function gotten from stack overflow
+// https://stackoverflow.com/questions/49475785/google-maps-synchronize-zoom-position-of-multiple-maps/49486241
+
+var listener1, listener2;
+
+map.setCenter(map1.getCenter());
+map.setZoom(map1.getZoom());
+
+
+  map.addListener('mouseover', function() {
+    google.maps.event.removeListener(listener2);
+    listener1 = google.maps.event.addListener(map, 'bounds_changed', (function() {
+      map1.setCenter(map.getCenter());
+      map1.setZoom(map.getZoom());
+    }));
+  });
+
+
+  map1.addListener('mouseover', function() {
+    google.maps.event.removeListener(listener1);
+    listener2 = google.maps.event.addListener(map1, 'bounds_changed', (function() {
+      map.setCenter(map1.getCenter());
+      map.setZoom(map1.getZoom());
+    }));
+  });
+
+
+/*--------------------*/
+
+partyRoute = [];
+studentRoute = [];
+
+createMarkers();
+createLMap();
+// Show the light Map
+	lightMap.setMap(map1);
+
+//All the base shapes on the map
+addDorms(map); //Is missing Ayres, Barnswell Apartments, and Theme Houses. Add those next please.
+addAcademics(map);
+addFrats(map);
+
+addDorms(map1,'red'); 
+addAcademics(map1,'red');
+addFrats(map1,'red');
+
+//Map 1 components
+makeParty('black');
+  for (var i =0; i<partyRoute.length; i++)
+    partyRoute[i].setMap(map);
+
+makeStudent('red');
+  for (var i =0; i<studentRoute.length; i++)
+    studentRoute[i].setMap(map);
+
+//createOtherPaths();
+
+markerCluster = new MarkerClusterer(map, markers,
+ { minimumClusterSize:5,
+imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+  });
+ markerCluster.clearMarkers();
+}
+
+</script>
+</pre>
+    <div id="map_canvas0" style='float: left; height:50%; width:50%;'></div>
+    <div id="map_canvas1" style='float: right; height:50%; width:50%;'></div>
+<pre>
+
+
+
+</p>
+</pre>
+</body>
+<footer>
+All light location information was gathered by hand, so there may be a degree of human error.
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Website designed and created by Computer Science Major LaToya McIntyre
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ University of the South, Class of 2020.
+</footer>
+
+</html>
+
+</html>

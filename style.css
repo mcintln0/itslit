@@ -1,0 +1,145 @@
+/* LaToya McIntyre
+CS 286 Google Maps
+Spring 2019 */
+
+ body {
+        background-image: linear-gradient(to bottom, #582C83 0%, #FFB81C 100%);
+        background-size: cover;
+        min-height: 100%;
+     }
+
+  h1 {text-align: center;
+      font-size: 50px;
+      font-family: 'Merienda';
+      background-color: #582C83;
+      color: white;
+     }
+ 
+  h2 {text-align: center;
+      font-size: 30px;
+      background-color: gold;
+     }
+
+  pre{
+     word-wrap: break-word;
+     white-space: pre-wrap;
+     background: white;
+     padding: 20px;
+     font-size: 20px;
+     }
+
+  ul{
+    font-size: 20px;
+    }
+
+  p{
+   font-size: 20px;
+   }
+
+  b{ 
+   font-size: 1.2em;
+   }
+
+  footer{
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    background: black;
+  }
+  
+  #map_canvas{ height:80%; width: 95%}
+
+  button.menu{
+         display: block;
+         color: white;
+         text-align:center;
+         padding: 14px 16px;
+         text-decoration: none;
+         display: inline-block;
+         font-family: 'Lobster';
+         font-size: 20px; 
+         width:200px;
+         float: right; 
+      }
+
+  button{
+          font-size: 1.5em;
+          text-align: center;
+          height: 50px;
+          background-color: Black;
+          color: White;
+          font-family: "Times New Roman", Times, cursive;
+          transition-duration: 0.5s;         
+          display: table-cell;
+          } 
+
+  button:hover {
+         background-color: red;
+         color: black;
+         border-radius:75%;
+         }
+
+ button.mapControl{
+        width: 155px;
+        height: 30px;
+        font-size: 15px;
+        color: white;
+        background-color: darkblue ;
+       }
+
+ button.mapControl:hover{
+       color: black;
+       background-color: red;
+       }
+
+  button.instructions{
+    color: white;
+    background-color: black;
+    width: 155px;
+    height: 30px;
+  }
+
+  button.instructions:hover{
+    border-radius: 0%; 
+  }
+
+ button.positionControl{
+        width: 155px;
+        height: 30px;
+        font-size: 15px;
+        color: red;
+        background-color: white ;
+       }
+
+  button.positionControl:hover{
+       background-color: black ;
+       }
+
+  button.pathControl{
+        width: 155px;
+        height: 30px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+       }
+
+  button.pathControl:hover{
+       background-color: darkblue;
+        color: white;
+       }
+
+
+  h3{ font-size: 30px;
+    }
+
+/*
+  .gm-style-iw{
+       font-size: .23em;
+       width: 300px;
+       height: 100px;
+       border:2px solid;
+       padding: 5px;
+              }
+
+
+*/

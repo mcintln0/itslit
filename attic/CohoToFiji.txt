@@ -1,0 +1,239 @@
+/* Fix the doc for TN Ave in the attic and the actual */
+
+// Coho to Fiji
+
+//1.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.203221 ', 'Longitude' :' -85.916981'}, 'Exists': 'Yes'},
+
+
+//2.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202971 ', 'Longitude' :' -85.917108'}, 'Exists': 'Yes'},
+
+
+//3.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202944 ', 'Longitude' :' -85.917159'}, 'Exists': 'Yes'},
+
+
+//4.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202972 ', 'Longitude' :' -85.917266'}, 'Exists': 'Yes'},
+
+
+//5.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.203096 ', 'Longitude' :' -85.917320'}, 'Exists': 'Yes'},
+
+
+//6.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202976 ', 'Longitude' :' -85.917422'}, 'Exists': 'Yes'},
+
+
+//7.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202792 ', 'Longitude' :' -85.917089'}, 'Exists': 'Yes'},
+
+
+//8.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202785 ', 'Longitude' :' -85.917188'}, 'Exists': 'Yes'},
+
+
+//9.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202822 ', 'Longitude' :' -85.916955'}, 'Exists': 'Yes'},
+
+
+//10.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202424 ', 'Longitude' :' -85.917043'}, 'Exists': 'Yes'},
+
+
+//11.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202319 ', 'Longitude' :' -85.917215'}, 'Exists': 'Yes'},
+
+
+
+//12
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.202388 ', 'Longitude' :' -85.917270'}, 'Exists': 'Yes'},
+
+
+
+//13
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201908 ', 'Longitude' :' -85.917314'}, 'Exists': 'Yes'},
+
+
+//14.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201713 ', 'Longitude' :' -85.916979'}, 'Exists': 'Yes'},
+
+
+//15.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201518 ', 'Longitude' :' -85.916753'}, 'Exists': 'Yes'},
+
+
+//16.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201823 ', 'Longitude' :' -85.916830'}, 'Exists': 'Yes'},
+
+
+//7.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201542 ', 'Longitude' :' -85.916631'}, 'Exists': 'Yes'},
+
+
+//18.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201380 ', 'Longitude' :' -85.917050'}, 'Exists': 'Yes'},
+
+
+//19.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201275 ', 'Longitude' :' -85.917256'}, 'Exists': 'Yes'},
+
+
+//20.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.200999 ', 'Longitude' :' -85.917193'}, 'Exists': 'Yes'},
+
+
+//21.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.200812 ', 'Longitude' :' -85.917079'}, 'Exists': 'Yes'},
+
+
+//22.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.200578 ', 'Longitude' :' -85.916780'}, 'Exists': 'Yes'},
+
+
+//23.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.200455 ', 'Longitude' :' -85.917081'}, 'Exists': 'Yes'},
+
+
+//24.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201537 ', 'Longitude' :' -85.917271'}, 'Exists': 'Yes'},
+
+
+//25.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201971 ', 'Longitude' :' -85.917593'}, 'Exists': 'Yes'},
+
+
+//26.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201646 ', 'Longitude' :' -85.917917'}, 'Exists': 'Yes'},
+
+
+//27.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201587 ', 'Longitude' :' -85.918266'}, 'Exists': 'Yes'},
+
+
+//28.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201405 ', 'Longitude' :' -85.919310'}, 'Exists': 'Yes'},
+
+
+//29.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201134 ', 'Longitude' :' -85.919178'}, 'Exists': 'Yes'},
+
+
+//30.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201283 ', 'Longitude' :' -85.919657'}, 'Exists': 'Yes'},
+
+
+//31.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201168 ', 'Longitude' :' -85.920014'}, 'Exists': 'Yes'},
+
+
+//32.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201452 ', 'Longitude' :' -85.920029'}, 'Exists': 'Yes'},
+
+
+//33.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201627 ', 'Longitude' :' -85.920052'}, 'Exists': 'Yes'},
+
+
+//34.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.200805 ', 'Longitude' :' -85.920002'}, 'Exists': 'Yes'},
+
+
+//35.
+
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.200718 ', 'Longitude' :' -85.919653'}, 'Exists': 'Yes'},
+
+
+//36.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201260 ', 'Longitude' :' -85.920137'}, 'Exists': 'Yes'},
+
+
+//37.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201397 ', 'Longitude' :' -85.920144'}, 'Exists': 'Yes'},
+
+
+//38.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201412 ', 'Longitude' :' -85.920504'}, 'Exists': 'Yes'},
+
+
+//39.
+
+{'Name' : 'Tennesse Ave', 'Type': ' Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.201330 ', 'Longitude' :' -85.920719'}, 'Exists': 'Yes'},

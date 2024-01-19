@@ -1,0 +1,72 @@
+<html>
+<head>
+    <script src=
+     "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA&libraries=geometry&visualization"
+    ></script>
+</head>
+
+<body onload="init();">
+<script>
+var map;
+
+function DormPath(src,dst,color,path){
+    this.source      = src;
+    this.destination = dst;
+    this.color       = color;
+    this.path        = path;
+    this.toString = function(){
+                  return "<p>Source : " + this.source
+                        +"<br>Destination : " + this.destination
+                        ;
+                }
+  }
+
+function init(){
+    map = new google.maps.Map(document.getElementById("map_canvas"),{
+        center: {lat: 35.205154, lng: -85.917483 },
+        zoom:16}
+     );
+
+
+
+//farDormArray to academicArray[0]
+studentRoute= [
+ new DormPath("Gorgas"
+              ,"Woods", "purple","wlyuEtlmkOx@k@DMCOMAw@TGKGCK?M?GIC@AGOOEAKWO_@UPi@gAWe@CEDGk@Si@Ow@Iq@wAs@aBWs@Qm@q@kB_@s@S[WUSOw@QkCg@SCKI_@m@Y_@QS{ADyCUOAgAs@QEGk@QeAGKEMAW?MW_@GA?MQA[C@UEEBGGKKA?G")
+ ,new DormPath("Trez"
+              ,"Woods", "red", "ma{uEhvjkOF?D@b@YB?B@BENENDLLbAfA`A`Al@d@n@b@{AxDUZg@bBg@jBIt@CpCC|C?r@D?BNK|ANPDBl@BH@?BIbBElAAXDTFNN@ZAN??G")
+ ,new DormPath("Phillips"
+              ,"Woods", "black", "yb{uEh~mkO^k@H[@GF?JCJGj@GNOLMJWBO?]?u@B{@NkDb@{HPoDJyEL?FaCHaDBgA@Up@DDiANAPGDCDoADs@?MW_@GA?MQA[C@UEEBGGKKA?G")
+ ,new DormPath("Benedict"
+              ,"Woods", "orange", "ym{uEpvkkOALx@HbBJFIn@Hn@J?@?Dn@Fl@F~@HEv@\tAVlAFFJHGf@ZDV?b@FTJBEB@J@LA\??G")
+ ,new DormPath("Courts"
+              , "Woods", "grey", "e_{uE``kkODk@D?HBTJTZVf@EPODCD?HI@E@BJJlAR~AMd@Gj@EnBAdAAvDD??H@LE`ACRBFFFFBx@FKnBErA@RFRBHH@L?XCH@?G")
+ ,new DormPath("Downtown Sewanee"
+              ,"Woods", "black", "myzuEfblkO?FB?JF?LDDATf@DD??LF@V^ARDTHRLj@LfAPDfAr@pCRdA@l@CNRl@MXE`@Qv@_@fA_AhAeAlBoA`B[xBOvBK`AQb@Sd@]x@kAh@q@z@k@|Ay@Nj@Ld@")
+ ,new DormPath("Memorial Cross"
+              ,"Woods", "lightpink", "myzuEfblkO?FB?JF?LDDATf@DD??LF@V^ARDTHRLj@LfAPDfAr@pCRdA@l@CNPLNb@p@PTHBxB^EJ~@Tr@\n@t@zBfGrCbGfDpHdEvJjFxLbEvJzCbH`ErJd@hAd@hA`@P\Ln@t@TZK?Q?MDGDHV")
+ ,new DormPath("Morgan's Steep"
+              ,"Woods", "black", "myzuEfblkO?FB?JF?LDDATf@DD??LF@V^ARI|BMFQDG?Cr@ATq@ECp@SnIUrHYhFQtDEh@FX^n@b@j@dBvA?h@R|AFn@T~@Vp@n@|@d@z@jAtCVv@^pADf@AZS`@")
+]
+
+    //  show... this thing:
+    //   points : "o~zuEzymkOJ@FEDOBSA[?w@HwBN_DN}BNyCP{DH{C?YL?LwFDwABq@p@D@UBs@F?PELGH}B@SW_@GA?ME?g@E@UEE?MKGC??G"
+ //   for(var i in studentRoute)
+    for(var i=0;i<studentRoute.length;i++)
+           new google.maps.Polyline({
+
+                          path: google.maps.geometry.encoding.decodePath(  studentRoute[i].path )
+                          //  path: google.maps.geometry.encoding.decodePath( "o~zuEzymkOJ@FEDOBSA[?w@HwBN_DN}BNyCP{DH{C?YL?LwFDwABq@p@D@UBs@F?PELGH}B@SW_@GA?ME?g@E@UEE?MKGC??G") 
+
+                  ,  strokeColor: studentRoute[i].color
+                 // ,  strokeColor: "red"
+
+                  ,  map: map
+                             });
+
+}
+
+</script>
+    <div style='height:90%;width:90%'  id="map_canvas"></div>
+</body>
+</html>

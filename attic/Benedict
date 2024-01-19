@@ -1,0 +1,46 @@
+
+1
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.207196' ,  'Longitude' : ' -85.917029'}, 'Exists': 'Yes'},
+
+2
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.207160' ,  'Longitude' : ' -85.916483'}, 'Exists': 'Yes'},
+
+3
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.207074' ,  'Longitude' : ' -85.916265'}, 'Exists': 'Yes'},
+
+4
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes',
+ 'Location':{ 'Latitude':' 35.207174' ,  'Longitude' : ' -85.915991'}, 'Exists': 'Yes'},
+
+5
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'No',
+ 'Location':{ 'Latitude':' 35.207126' ,  'Longitude' : ' -85.915704'}, 'Exists': 'Yes'},
+
+6
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.207213' ,  'Longitude' : ' -85.915484'}, 'Exists': 'Yes'},
+
+7
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes',
+ 'Location':{ 'Latitude':' 35.207274' ,  'Longitude' : ' -85.915190'}, 'Exists': 'Yes'},
+
+8
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.207416' ,  'Longitude' : ' -85.915044'}, 'Exists': 'Yes'},
+
+9
+
+{'Name' : 'Benedict', 'Type': 'Street Light' , 'Working' : 'Yes',
+ 'Location':{ 'Latitude':' 35.207449' ,  'Longitude' : ' -85.917871'}, 'Exists': 'No'}
+

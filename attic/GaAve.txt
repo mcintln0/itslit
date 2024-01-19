@@ -1,0 +1,59 @@
+
+1
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.203474' ,  'Longitude' : ' -85.912615'}, 'Exists':'Yes'},
+
+2
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.203824' ,  'Longitude' : ' -85.913349'}, 'Exists':'Yes'},
+
+3
+
+{'Name' : 'Georgia Ave', 'Type': 'Tree Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.204168' ,  'Longitude' : ' -85.914028'}, 'Exists':'NO'},
+
+4
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.204502' ,  'Longitude' : ' -85.914463'}, 'Exists':'Yes'},
+
+
+5
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.204716' ,  'Longitude' : ' -85.914808'}, 'Exists':'Yes'},
+
+
+
+6
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes', 'Location':{ 'Latitude':' 35.204799' ,  'Longitude' : ' -85.915588'}, 'Exists':'No'},
+
+//7
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes',
+'Location':{ 'Latitude':'  35.204923 ' ,  'Longitude' : ' -85.916065'}, 'Exists':'Yes'},
+
+
+
+//8
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes',
+'Location':{ 'Latitude':'  35.205073 ' ,  'Longitude' : ' -85.916344'}, 'Exists':'Yes'},
+
+
+
+//9
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':'  35.204930 ' ,  'Longitude' : ' -85.916370'}, 'Exists':'Yes'},
+
+
+
+//10
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes',
+'Location':{ 'Latitude':'  35.204852 ' ,  'Longitude' : ' -85.917227'}, 'Exists':'Yes'},
+
+
+//11
+
+{'Name' : 'Georgia Ave', 'Type': 'Street Light', 'Working' : 'Yes',
+ 'Location':{ 'Latitude':'  35.204866 ' ,  'Longitude' : ' -85.917736'}, 'Exists':'Yes'},

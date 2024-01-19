@@ -1,0 +1,129 @@
+
+1
+
+{'Name' : 'Courts & Humpreys', 'Type': 'BLack Lamp', 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204651' ,  'Longitude' : ' -85.914142'}, 'Exists' : 'Yes'},
+
+2
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.204729' ,  'Longitude' : ' -85.914178'}, 'Exists' : 'Yes'},
+3
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.204864' ,  'Longitude' : ' -85.914185'}, 'Exists' : 'Yes'},
+4
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.204713' ,  'Longitude' : ' -85.914519'}, 'Exists' : 'Yes'},
+
+5
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.204867' ,  'Longitude' : ' -85.914586'}, 'Exists' : 'Yes'},
+
+6
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.204817' ,  'Longitude' : ' -85.914744'}, 'Exists' : 'Yes'},
+
+7
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.204839' ,  'Longitude' : ' -85.915390'}, 'Exists' : 'Yes'},
+
+8
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.205036' ,  'Longitude' : ' -85.915478'}, 'Exists' : 'Yes'},
+
+9
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.204970' ,  'Longitude' : ' -85.915291'}, 'Exists' : 'Yes'},
+
+10
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'No', 
+ 'Location':{ 'Latitude':' 35.204854' ,  'Longitude' : ' -85.915210'}, 'Exists' : 'Yes'},
+
+11
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205124' ,  'Longitude' : ' -85.914726'}, 'Exists' : 'Yes'},
+
+12
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205226' ,  'Longitude' : ' -85.914832'}, 'Exists' : 'Yes'},
+
+13
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205283' ,  'Longitude' : ' -85.915131'}, 'Exists' : 'Yes'},
+
+14
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Black Lamp', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205197' ,  'Longitude' : ' -85.915169'}, 'Exists' : 'Yes'},
+
+15
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205327' ,  'Longitude' : ' -85.914923'}, 'Exists' : 'Yes'},
+
+16
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205254' ,  'Longitude' : ' -85.914696'}, 'Exists' : 'Yes'},
+
+17
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205273' ,  'Longitude' : ' -85.914315'}, 'Exists' : 'Yes'},
+
+18
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205454' ,  'Longitude' : ' -85.914528'}, 'Exists' : 'Yes'},
+
+19
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205508' ,  'Longitude' : ' -85.914758'}, 'Exists' : 'Yes'},
+
+20
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205529' ,  'Longitude' : ' -85.914975'}, 'Exists' : 'Yes'},
+
+21
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205804' ,  'Longitude' : ' -85.914576'}, 'Exists' : 'Yes'},
+
+22
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205753' ,  'Longitude' : ' -85.914710'}, 'Exists' : 'Yes'},
+
+23
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.205801' ,  'Longitude' : ' -85.914932'}, 'Exists' : 'Yes'},
+
+24
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes', 
+ 'Location':{ 'Latitude':' 35.205882' ,  'Longitude' : ' -85.914831'}, 'Exists' : 'Yes'},
+
+25
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205667' ,  'Longitude' : ' -85.915159'}, 'Exists' : 'Yes'},
+
+26
+
+{'Name' : 'Courts & Humpreys', 'Type': 'Street Light', 'Working' : 'Yes',
+  'Location':{ 'Latitude':' 35.205844' ,  'Longitude' : ' -85.915230'}, 'Exists' : 'Yes'},
+

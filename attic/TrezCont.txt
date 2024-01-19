@@ -1,0 +1,22 @@
+//Trez Cont.
+
+
+//18
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes',
+ 'Location' :{ 'Latitude':' 35.204932 ','Longitude' : ' -85.911730'}, 'Exists': 'Yes'},
+
+
+
+//19
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes',
+ 'Location' :{ 'Latitude':' 35.205272 ','Longitude' : ' -85.911948'}, 'Exists': 'Yes'},
+
+
+
+//20
+
+{'Name' : 'Trez', 'Type': 'Street Light', 'Working' : 'Yes', 
+'Location' :{ 'Latitude':' 35.205008 ','Longitude' : ' -85.912021'}, 'Exists': 'Yes'},
+

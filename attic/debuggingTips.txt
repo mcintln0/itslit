@@ -1,0 +1,15 @@
+
+  Typos!! Spelling & capitalizalition.
+
+  A new map object REQUIRES BOTH zoom and center options.
+
+  Make sure map is placed in a 
+    document.GetElementById
+  that exists in your html.
+
+  Make sure that html element HAS A HEIGHT.
+    (Default div height is...wait for it... 0 pixels)
+
+  Find & use JavaScript debugger/console for error messages.
+
+

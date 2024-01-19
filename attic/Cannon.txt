@@ -1,0 +1,78 @@
+// Suggest phillips light
+
+{'Name' : 'Phillips', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205385 ' ,  'Longitude' : ' -85.926798'}, 'Exists': 'No'},
+
+// Cannon
+
+//1
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204907 ' ,  'Longitude' : ' -85.922810'}, 'Exists': 'Yes'},
+
+
+//2
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204446' ,  'Longitude' : ' -85.921732'}, 'Exists': 'Yes'},
+
+
+
+//3
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204570 ' ,  'Longitude' : ' -85.921809'}, 'Exists': 'Yes'},
+
+
+
+//4
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205066 ' ,  'Longitude' : ' -85.922052'}, 'Exists': 'Yes'},
+
+
+
+//5
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205036 ' ,  'Longitude' : ' -85.922298'}, 'Exists': 'Yes'},
+
+
+
+//6
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205331 ' ,  'Longitude' : ' -85.922259'}, 'Exists': 'Yes'},
+
+
+
+//7
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205363 ' ,  'Longitude' : ' -85.921955'}, 'Exists': 'Yes'},
+
+
+
+//8
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205511 ' ,  'Longitude' : ' -85.922119'}, 'Exists': 'Yes'},
+
+
+//9
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.205386 ' ,  'Longitude' : ' -85.921746'}, 'Exists': 'Yes'},
+
+
+//10.
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204943 ' ,  'Longitude' : ' -85.921502'}, 'Exists': 'Yes'},
+
+
+//11.
+
+{'Name' : 'Cannon', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location':{ 'Latitude':' 35.204462 ' ,  'Longitude' : ' -85.922398'}, 'Exists': 'Yes'},
+

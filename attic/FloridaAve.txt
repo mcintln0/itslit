@@ -1,0 +1,60 @@
+// Florida Ave
+
+//1.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.208467 ' ,  'Longitude' : ' -85.921924'}, 'Exists': 'Yes'}, 
+
+
+//2.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.208241' ,  'Longitude' : ' -85.922961'}, 'Exists': 'Yes'},
+
+
+//3.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.207985' ,  'Longitude' : ' -85.923491'}, 'Exists': 'Yes'}, 
+
+
+//4.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.207693 ' ,  'Longitude' : ' -85.923963'}, 'Exists': 'Yes'},
+
+
+//5.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.207294 ' ,  'Longitude' : ' -85.924558'}, 'Exists': 'Yes'},
+
+
+//6.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.206927 ' ,  'Longitude' : ' -85.925035'}, 'Exists': 'Yes'},
+
+
+//7.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.206492 ' ,  'Longitude' : ' -85.925577'}, 'Exists': 'Yes'},
+
+
+//8.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.206149 ' ,  'Longitude' : ' -85.925995'}, 'Exists': 'Yes'},
+
+
+//9.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.205790 ' ,  'Longitude' : ' -85.926644'}, 'Exists': 'Yes'},
+
+
+//10.
+
+{'Name' : 'Florida Ave', 'Type': 'Street Light' , 'Working' : 'Yes', 
+'Location' : { 'Latitude':' 35.206269 ' ,  'Longitude' : ' -85.927483'}, 'Exists': 'Yes'},

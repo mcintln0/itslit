@@ -1,0 +1,96 @@
+1
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.205106' ,  'Longitude' : ' -85.928226'}, 'Exists':'Yes'},
+
+2
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.204942' ,  'Longitude' : ' -85.928035'}, 'Exists':'Yes'},
+
+3
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.204903' ,  'Longitude' : ' -85.927823'}, 'Exists':'Yes'},
+
+4
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.204967' ,  'Longitude' : ' -85.927594'}, 'Exists':'Yes'},
+
+
+5
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.204905' ,  'Longitude' : ' -85.927151'}, 'Exists':'Yes'},
+
+
+
+6
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.205153' ,  'Longitude' : ' -85.927667'}, 'Exists':'Yes'},
+
+
+7
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.205271' ,  'Longitude' : ' -85.927711'}, 'Exists':'Yes'},
+
+
+8
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205444' ,  'Longitude' : ' -85.927499'}, 'Exists':'Yes'},
+
+
+9
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205614' ,  'Longitude' : ' -85.927206'}, 'Exists':'Yes'},
+
+
+10
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.205698' ,  'Longitude' : ' -85.927421'}, 'Exists':'Yes'},
+
+
+11
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205885' ,  'Longitude' : ' -85.927554'}, 'Exists':'Yes'},
+
+12
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205751 ' ,  'Longitude' : ' -85.927640'}, 'Exists':'Yes'},
+
+13
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.205714' ,  'Longitude' : ' -85.927948'}, 'Exists':'Yes'},
+
+14
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205607' ,  'Longitude' : ' -85.928761'}, 'Exists':'Yes'},
+
+15
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify',
+ 'Location':{ 'Latitude':' 35.205410' ,  'Longitude' : ' -85.928366'}, 'Exists':'Yes'},
+
+16
+
+{'Name' : 'Phillips', 'Type': 'Black Lamp', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205490' ,  'Longitude' : ' -85.927912'}, 'Exists':'Yes'},
+
+
+
+17
+
+{'Name' : 'Phillips', 'Type': 'Street Light', 'Working' : 'Verify', 
+'Location':{ 'Latitude':' 35.205157' ,  'Longitude' : ' -85.928900'}, 'Exists':'Yes'}
+
+
